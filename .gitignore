@@ -1,0 +1,20 @@
+# --- Configurazione e Segreti ---
+# Ignora il file dove salvi la DBURL e l'utente corrente
+.gatorconfig.json
+*.env
+config.json
+
+# --- Tool di Sviluppo e OS ---
+# File specifici del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Cartelle degli IDE (VS Code, JetBrains)
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- Node.js & TS specific ---
+dist/
+node_modules/
